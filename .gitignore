@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Data files (VERY IMPORTANT)
+# =========================
+data/docs/*
+!data/docs/.gitkeep
+
+# =========================
+# Vector DB / embeddings
+# =========================
+chroma/
+*.db
+*.sqlite3
+
+# =========================
+# Cache / temp
+# =========================
+.cache/
+tmp/
+temp/
+
+# =========================
+# Jupyter (optional)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / packaging
+# =========================
+dist/
+build/
+*.egg-info/
